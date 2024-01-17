@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xB7olE6EmD+Hloq4TkPCOcnUcRwVxZno0OExdKJ6ZpGzo+eR4Ai5xb/Got02x5f9ZG5ArZl7tF62ZCq5FAhFzA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Statistici Internet Cămin</title>
+</head>
+<body>
+    <header>
+        <div class="server-status">
+            <i class="fas fa-server"></i>
+            <span class="status-indicator" id="serverStatus"></span>
+        </div>
+        <h1 class="animate__animated animate__fadeInDown">Statistici Internet Cămin</h1>
+    </header>
+
+    <section id="floorStatistics" class="animate__animated animate__fadeIn">
+        <!-- Box pentru Parter -->
+        <div class="floor-box" id="groundFloorBox">
+            <h2>Parter</h2>
+            <p>Viteza Internet: <span class="floor-value" id="groundFloorValue">0</span> Mbps</p>
+            <p>Ping: <span class="floor-value" id="groundFloorPingValue">0</span> ms</p>
+            <p>Jitter: <span class="floor-value" id="groundFloorJitterValue">0</span> ms</p>
+            <p>Pierderi de Pachete: <span class="floor-value" id="groundFloorPacketLossValue">0</span>%</p>
+            <!-- Alte statistici pentru Parter -->
+
+        </div>
+
+        <!-- Box pentru Etaj 1 -->
+        <div class="floor-box" id="firstFloorBox">
+            <h2>Etaj 1</h2>
+            <p>Viteza Internet: <span class="floor-value" id="firstFloorValue">0</span> Mbps</p>
+            <p>Ping: <span class="floor-value" id="firstFloorPingValue">0</span> ms</p>
+            <p>Jitter: <span class="floor-value" id="firstFloorJitterValue">0</span> ms</p>
+            <p>Pierderi de Pachete: <span class="floor-value" id="firstFloorPacketLossValue">0</span>%</p>
+            <!-- Alte statistici pentru Etaj 1 -->
+
+        </div>
+
+        <!-- Box pentru Etaj 2 -->
+        <div class="floor-box" id="secondFloorBox">
+            <h2>Etaj 2</h2>
+            <p>Viteza Internet: <span class="floor-value" id="secondFloorValue">0</span> Mbps</p>
+            <p>Ping: <span class="floor-value" id="secondFloorPingValue">0</span> ms</p>
+            <p>Jitter: <span class="floor-value" id="secondFloorJitterValue">0</span> ms</p>
+            <p>Pierderi de Pachete: <span class="floor-value" id="secondFloorPacketLossValue">0</span>%</p>
+            <!-- Alte statistici pentru Etaj 2 -->
+
+        </div>
+
+        <!-- Box pentru Etaj 3 -->
+        <div class="floor-box" id="thirdFloorBox">
+            <h2>Etaj 3</h2>
+            <p>Viteza Internet: <span class="floor-value" id="thirdFloorValue">0</span> Mbps</p>
+            <p>Ping: <span class="floor-value" id="thirdFloorPingValue">0</span> ms</p>
+            <p>Jitter: <span class="floor-value" id="thirdFloorJitterValue">0</span> ms</p>
+            <p>Pierderi de Pachete: <span class="floor-value" id="thirdFloorPacketLossValue">0</span>%</p>
+            <!-- Alte statistici pentru Etaj 3 -->
+
+        </div>
+
+        <!-- Box pentru Etaj 4 -->
+        <div class="floor-box" id="fourthFloorBox">
+            <h2>Etaj 4</h2>
+            <p>Viteza Internet: <span class="floor-value" id="fourthFloorValue">0</span> Mbps</p>
+            <p>Ping: <span class="floor-value" id="fourthFloorPingValue">0</span> ms</p>
+            <p>Jitter: <span class="floor-value" id="fourthFloorJitterValue">0</span> ms</p>
+            <p>Pierderi de Pachete: <span class="floor-value" id="fourthFloorPacketLossValue">0</span>%</p>
+            <!-- Alte statistici pentru Etaj 4 -->
+
+        </div>
+    </section>
+
+        <footer class="footer-container">
+            <div class="copyright-text">
+                Powered by Andy Systems
+            </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
