@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateServerStatus() {
         const statusIndicator = document.getElementById('serverStatus');
-        // Vom seta serverul să fie întotdeauna online (verde)
         statusIndicator.style.backgroundColor = 'green';
     }
 
@@ -41,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function () {
             floorPacketLossValue: isDaytime ? 8 : 2
         };
 
-        // Folosim o perioadă de 10 secunde pentru a obține oscilații relativ lente
+
         const period = 10000;
 
-        // Adăugăm un factor de ajustare pentru a face valorile să difere între etaje
+
         const adjustmentFactor = {
             floorValue: getRandomValue(0.8, 1.2),
             floorPingValue: getRandomValue(0.8, 1.2),
